@@ -1,0 +1,128 @@
+/*common kisu css*/
+
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+.container{
+
+    width:1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+/*=======================================================*/
+
+
+.screenOne{
+    padding:50px;
+    background-color: rgb(236, 236, 236);
+    width:810px;
+    margin:0 auto;
+    border:1px solid rgb(160, 160, 160);
+   
+}
+.headingOne{
+    font-size:48px;
+    font-weight: bold;
+    margin-left:177px;
+}
+
+.inputNameOne{
+    margin-left:145px;
+    padding:22px;
+    width: 500px;
+    border-radius: 50px;
+    border:2px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.playOneButton {
+    margin-left: 316px;
+    cursor: pointer;
+    width: 200px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #7041D3;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.inputNameOne::placeholder {
+    color: rgb(170, 170, 170);              /*palceholder a kisu jodi changw korte jai tokhon ai vhabe likte hoi tobe  button a kaj kore na*/
+    font-size: 18px;
+}
+.errorOne{
+    padding: 10px;
+    background-color: rgb(158, 4, 4);
+    width:450px;
+    text-align: center;
+    font-size:35px;
+    color:white;
+    margin:0 auto;              /*display duita dile style change hobe fixed akta size bole disi naile kaj korbe na */
+    border-radius: 5px;
+   display:none;           /*display none dile kno kisu hide korte parmu jemon error*/
+}
+
+/*screen one end*/
+
+/*screeen  two start*/
+
+.screenTwo{
+    padding:50px;
+    background-color: rgb(236, 236, 236);
+    width:810px;
+    margin:0 auto;
+    border:1px solid rgb(160, 160, 160);
+    display:none ;
+}
+.headingTwo{
+    font-size:48px;
+    font-weight: bold;
+    margin-left:295px;
+}
+
+.inputNameTwo{
+    margin-left:145px;
+    padding:22px;
+    width: 500px;
+    border-radius: 50px;
+    border:2px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.playTwoButton {
+    margin-left: 316px;
+    cursor: pointer;
+    width: 200px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #7041D3;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.inputNameTwo::placeholder {
+    color: rgb(170, 170, 170);             
+    font-size: 18px;
+}
+.errorTwo{
+    padding: 10px;
+    background-color: rgb(158, 4, 4);
+    width:450px;
+    text-align: center;
+    font-size:35px;
+    color:white;
+    margin:0 auto;              
+    border-radius: 5px;
+   display:none;          
+}
